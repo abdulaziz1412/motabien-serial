@@ -2,7 +2,34 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout>
-  <h1>مرحباً بكم في مدونتي 🔥</h1>
-  <p>هنا أشارك مقالاتي وتجربتي التقنية باستخدام Astro و Netlify.</p>
-</Layout>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>مرحباً بك في موقعي</title>
+    <style>
+      body {
+        font-family: "Cairo", sans-serif;
+        background-color: #f9f9f9;
+        padding: 2rem;
+        text-align: right;
+        direction: rtl;
+      }
+      h1 {
+        font-size: 2.5rem;
+        color: #222;
+      }
+      p {
+        font-size: 1.2rem;
+        color: #555;
+      }
+      .cta {
+        margin-top: 1.5rem;
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background-color: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+      }
+      .cta:hover
