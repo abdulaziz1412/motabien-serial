@@ -32,4 +32,22 @@ import Layout from '../layouts/Layout.astro';
         border-radius: 8px;
         transition: background-color 0.3s ease;
       }
-      .cta:hover
+      .cta:hover {
+        background-color: #388e3c;
+      }
+      img {
+        max-width: 300px;
+        border-radius: 12px;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>👋 مرحباً بك في موقع عبدالعزيز</h1>
+    <p>هذا الموقع صُمم باستخدام Astro ويحتوي على مقالات وأخبار وتقنيات جديدة.</p>
+    <a href="/blog" class="cta">ابدأ التصفح</a>
+    <br />
+    <img src="/images/cover.jpg" alt="صورة الموقع" />
+  </body>
+</html>
