@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <section style="padding: 2rem; text-align: center;">
+    <h1>صفحة التفاعل مع تويتر</h1>
+    <p>هنا راح نحط المحتوى لاحقًا 🛠️</p>
+  </section>
+</Layout>
